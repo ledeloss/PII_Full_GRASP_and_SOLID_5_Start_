@@ -28,10 +28,9 @@ namespace Full_GRASP_And_SOLID
 
             IPrinter consolePrinter = new ConsolePrinter ();
             IPrinter filePrinter = new FilePrinter(); 
-            IReceipeContent receipeContent = new PrintContent (recipe);
             
-            consolePrinter.PrintRecipe(receipeContent); 
-            filePrinter.PrintRecipe(receipeContent);
+            consolePrinter.PrintRecipe(recipe); 
+            filePrinter.PrintRecipe(recipe);
 
             
         
